@@ -7,6 +7,7 @@ import data from '../data'
 import NotFound from './NotFound';
 import Home from './Home';
 import Help from './Help';
+import Header from './Header';
 // import data from '../data';
 
 class App extends React.Component{
@@ -21,6 +22,7 @@ class App extends React.Component{
         })
         return(
             <>
+                <Header />
                 <div className="flex ">
                     <Sidebar /> 
                     <Switch>

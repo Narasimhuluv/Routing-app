@@ -16,7 +16,7 @@ class Articles extends React.Component{
                 <ul>
                     {
                         data.map((each) => (
-                            <li key={each.slug} className="my-3 border p-4">
+                            <li key={each.slug} className=" border p-4 mb-4">
                                 <NavLink to={`/post/${each.slug}`}>
                                     <h2 className="text-xl" >{each.title}</h2> 
                                 </NavLink>
